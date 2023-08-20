@@ -33,6 +33,17 @@ struct WebView: UIViewRepresentable {
     /// A binding to a list of URLs that have been loaded.
     @Binding var loadedURLs: [URL]
 
+
+    // Initialize DeeplinkDialogWarning class
+    lazy var deeplinkDialogWarning: DeeplinkDialogWarning = {
+        return DeeplinkDialogWarning(
+            restrictedURLs: restrictedURLs,
+            restrictedSchemes: restrictedSchemes,
+            whitelistURLs: whitelistURLs,
+            whitelistSchemes: whitelistSchemes
+        )
+    }()
+
     /// Creates a coordinator instance for the WebView.
     /// The coordinator acts as a delegate to handle navigation events.
     func makeCoordinator() -> Coordinator {

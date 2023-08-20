@@ -15,6 +15,7 @@
 		1A7143C82A90FF3A00128A2D /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7143C72A90FF3A00128A2D /* WebViewCoordinator.swift */; };
 		1A7143CA2A90FF6200128A2D /* WebViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7143C92A90FF6200128A2D /* WebViewNavigation.swift */; };
 		1A7143CC2A9102A300128A2D /* WebViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7143CB2A9102A300128A2D /* WebViewSettings.swift */; };
+		1A7143FD2A925D5800128A2D /* DeeplinkDialogWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7143FC2A925D5800128A2D /* DeeplinkDialogWarning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1A7143C72A90FF3A00128A2D /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
 		1A7143C92A90FF6200128A2D /* WebViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewNavigation.swift; sourceTree = "<group>"; };
 		1A7143CB2A9102A300128A2D /* WebViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewSettings.swift; sourceTree = "<group>"; };
+		1A7143FC2A925D5800128A2D /* DeeplinkDialogWarning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkDialogWarning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1A7143C72A90FF3A00128A2D /* WebViewCoordinator.swift */,
 				1A7143C92A90FF6200128A2D /* WebViewNavigation.swift */,
 				1A7143CB2A9102A300128A2D /* WebViewSettings.swift */,
+				1A7143FC2A925D5800128A2D /* DeeplinkDialogWarning.swift */,
 			);
 			path = WKWebview;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7143FD2A925D5800128A2D /* DeeplinkDialogWarning.swift in Sources */,
 				1A7143C82A90FF3A00128A2D /* WebViewCoordinator.swift in Sources */,
 				1A7143C62A90FEFD00128A2D /* WebView.swift in Sources */,
 				1A7143CC2A9102A300128A2D /* WebViewSettings.swift in Sources */,
