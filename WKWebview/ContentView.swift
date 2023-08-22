@@ -57,6 +57,7 @@ struct BrowserView: View {
             restrictedSchemes: webviewSettings.restrictedSchemes,
             whitelistURLs: webviewSettings.whitelistURLs,
             whitelistSchemes: webviewSettings.whitelistSchemes,
+            cssToInject: webviewSettings.removeBannerCSS,
             loadedURLs: $loadedURLs
         )
         .navigationBarTitle("Browser", displayMode: .inline)

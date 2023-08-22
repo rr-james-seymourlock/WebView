@@ -33,10 +33,15 @@ private let whitelistURLs: [String] = []
 
 private let whitelistSchemes: [String] = []
 
+private let globalBannerCSS = "#branch-banner-iframe, #branch-banner, .branch-banner-content { display: none; }"
+private let nikeBannerCSS = "body > #singular-banner.bottom { display: none; }"
+private let emptyCSS = ""
+
 let webviewSettings = (
     initialURL: initialURL,
     restrictedURLs: restrictedURLs,
     restrictedSchemes: restrictedSchemes,
     whitelistURLs: whitelistURLs,
-    whitelistSchemes: whitelistSchemes
+    whitelistSchemes: whitelistSchemes,
+    removeBannerCSS: [emptyCSS]
 )

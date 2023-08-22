@@ -30,9 +30,11 @@ struct WebView: UIViewRepresentable {
     /// List of whitelisted schemes that the user can navigate to freely.
     let whitelistSchemes: [String]
 
+    /// CSS for banner removal
+    let cssToInject: [String]
+
     /// A binding to a list of URLs that have been loaded.
     @Binding var loadedURLs: [URL]
-
 
     // Initialize DeeplinkDialogWarning class
     lazy var deeplinkDialogWarning: DeeplinkDialogWarning = {
